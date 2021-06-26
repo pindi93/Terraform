@@ -26,6 +26,7 @@ resource "aws_instance" "myec2" {
 
 ```sh
 terraform init
+terraform validate
 terraform plan
 terraform apply
 ```
